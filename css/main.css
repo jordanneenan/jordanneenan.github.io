@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'new_ciclesemi';
-    src: url('fonts/New_Cicle_Semi-webfont.eot');
-    src: url('fonts/New_Cicle_Semi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/New_Cicle_Semi-webfont.woff') format('woff'),
-         url('fonts/New_Cicle_Semi-webfont.ttf') format('truetype'),
-         url('fonts/New_Cicle_Semi-webfont.svg#new_ciclesemi') format('svg');
+    src: url('../fonts/New_Cicle_Semi-webfont.eot');
+    src: url('../fonts/New_Cicle_Semi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/New_Cicle_Semi-webfont.woff') format('woff'),
+         url('../fonts/New_Cicle_Semi-webfont.ttf') format('truetype'),
+         url('../fonts/New_Cicle_Semi-webfont.svg#new_ciclesemi') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,7 +12,9 @@
 body{font-family: 'new_ciclesemi'; letter-spacing: 0.05em; font-size: 1.2em; background-color: #75bdff; overflow: hidden;}
 .wrapper{width: 980px; margin: 0 auto;}
 
-header{width: 96%; padding: 0 2%; background: transparent url("img/header.png") 0 0 no-repeat; min-height: 124px; position: relative;}
+img{max-width: 100%;}
+
+header{width: 96%; padding: 0 2%; background: transparent url("../img/header.png") 0 0 no-repeat; min-height: 124px; position: relative;}
 .nav{margin: 0; padding: 0; float: left; margin: 14px 0 0 0;}
 .nav li{list-style: none; float: left;}
 .nav li a{color: #fff; text-decoration: none; opacity: 1; transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; padding: 5px 16px;}
